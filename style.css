@@ -1,0 +1,811 @@
+@font-face{
+	font-family: 'Beware';
+	src: url('assets/BEWARE.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face{
+	font-family: 'Voltaire';
+	src: url('assets/Voltaire-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.header{
+	margin: -9px -8px 0 -480px;
+	padding-left: 480px;
+	background: url(assets/bgTest.png);
+	background-size: 125% 125%; 
+	/*filter: blur(25px);*/
+
+}
+
+.header:before{
+	
+}
+
+/*.background{
+	height: 100%;
+	width: 100%;
+	filter: grayscale(100%), invert(100%);
+}*/
+
+.headerLogo{
+	margin-top: 20px;
+	margin-left: 50px;
+	height: 115px;
+	width: 131px;
+}
+
+nav{
+	display: flex;
+	justify-content: left;
+}
+
+a{
+	text-decoration: none;
+}
+
+.textMenu{
+	font-family: Vollkorn;
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.menu{
+	right: 0px;
+	margin-left: 30px;
+	margin-right: 30px;
+	width: 75%;
+	/*display: flex;
+	
+	color: #312F3E;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 5%;
+	/* margin-right: 5%;
+	margin-top: 20px;
+	padding: 5px 20px;
+	font-weight: 400;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;*/
+
+}
+
+.phone{
+	display: flex;
+	justify-content: left;
+}
+
+.corp2{
+	margin-top: 5px;
+	width: 53px;
+	height: 53px;
+	opacity: 0px;
+}
+
+.num{
+	font-family: Vollkorn SC;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #FFFFFF;
+}
+
+.mainDiv{ 
+	padding: 30px;
+	padding-bottom: 150px; 
+	padding-top: 60px;
+	display: flex;
+	justify-content: grid;
+}
+
+.container{
+	width: 75%;
+	/*margin: 10px;*/
+}
+
+.title1{
+	/* Кар’єрні консультації */
+
+/*width: 412px;*/
+/*height: 48px;*/
+
+font-family: 'Book Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+background: linear-gradient(90deg, #F1CF7F 17.4%, #FFFFFF 50%, #F1CF7F 86.4%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.title2{
+	/*width: 658px;*/
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+
+	font-family: 'Beware';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 127px;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title3{
+	/*width: 346px;*/
+	margin-top: 24px;
+
+font-family: 'Book Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+
+color: #FFFFFF;
+}
+
+.discount{
+	font-family: Book Antiqua;
+	font-size: 36px;
+	font-weight: 400;
+	background: linear-gradient(90deg, #F1CF7F 17.4%, #FFFFFF 50%, #F1CF7F 86.4%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.button1{
+	margin-top: 35px;
+	margin-left: 5px;
+	width: 375px;
+	height: 75px;
+	/* Записатися */
+
+	font-family: 'Vollkorn';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+
+	color: #FFFFFF;
+
+
+	border: 0px;
+	background: rgba(252, 255, 87, 0.66);
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 200px 30px;
+	transition: 0.5s;
+}
+
+.button1:hover{
+background: radial-gradient(50% 50% at 50% 50%, rgba(251, 252, 203, 0.66) 0%, rgba(252, 255, 87, 0.66) 100%);
+box-shadow: 0 0 35px #FEFFC6;
+}
+
+.wrap{
+	width: 762px;
+height: 523px;
+right: 0px;
+overflow: hidden;
+border: 15px solid rgba(255, 255, 255, 0.3);
+/*backdrop-filter: blur(50px);*/
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 0px 200px;
+}
+
+.StairwayToHeaven{
+	height: 130%;
+	width: auto;
+	margin: -150px 0 0 -45px;
+}
+
+.div1{
+	padding: 80px;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-bottom: 120px;
+}
+
+.title4{
+	width: 100%;
+font-family: Vollkorn;
+font-size: 48px;
+font-weight: 400;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #012D63;
+
+}
+
+.title5{
+	width: 100%;
+	font-family: Vollkorn;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.secondDiv{
+	display: flex;
+	justify-content: center;
+
+}
+
+.container1{
+	margin: 5px;
+/*	width: 33%;*/
+/*width: 100px;*/
+}
+
+.rectangle{
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 296px;
+	height: 300px;
+	border-radius: 44px;
+	background: #D0D0D080;
+	opacity: 50px;
+}
+
+.threeButtons{
+	/* Rectangle 5 */
+margin-left: 5px;
+margin-top: 30px;
+position: absolute;
+width: 360px;
+height: 70px;
+
+background: #436799;
+border: 0px;
+border-radius: 40px;
+
+font-family: Vollkorn SC;
+
+font-size: 24px;
+font-weight: 400;
+color: #FFFFFF;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.threeButtons:hover{
+	/* Rectangle 5 */
+
+background: radial-gradient(50% 50% at 50% 50%, #65A4ED 0%, #436799 100%);
+}
+
+.pony1{
+	height: 100%;
+	margin-left: 15px;
+}
+
+.pony2{
+	height: 100%;
+	margin-left: 5px;
+}
+
+.pony3{
+	height: 100%;
+	margin-left: -15px;
+}
+
+.whyyyyy{
+	margin: 0 -8px 0 -8px;
+	display: flex;
+	justify-content: center;
+	/*min-height: 100px;*/
+
+	background: url(assets/bgTest.png);
+	background-size: 100% 125%; 
+
+	padding: 40px;
+}
+
+
+
+.title6{
+	/* З ЯКИХ ПИТАНЬ МОЖНА ОТРИМАТИ КОНСУЛЬТАЦІЮ */
+
+position: absolute;
+width: 100%;
+
+
+font-family: 'Book Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+text-align: center;
+
+background: radial-gradient(50% 50% at 50% 50%, #F7F7F7 0%, #F1CF7F 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+
+.content1{
+	width: 100%;
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+.general{
+	margin: 5px;
+}
+
+.imageDiv{
+	margin-left: 0px;
+	width: 320px;
+	height: 500px;
+	overflow: hidden;
+}
+
+.manThink{
+	margin-left: -400px;
+	height: 100%;
+}
+
+.underTitle{
+
+margin-left: 40px;
+height: 40px;
+
+font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+/* identical to box height */
+text-align: center;
+
+color: #F1CF7F;
+}
+
+.list{
+display: flex;
+	justify-content: center;
+margin: 5px;
+
+font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+
+color: #FFFFFF;
+}
+
+li{
+	margin-bottom: 30px;
+}
+
+.content2{
+	padding: 30px;
+	padding-bottom: 150px; 
+	padding-top: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.title7{
+	width: 570px;
+	margin-top: 0;
+	margin-bottom: 0;
+
+	font-family: Book Antiqua;
+font-size: 64px;
+font-weight: 400;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #012D63;
+
+
+}
+
+.text1{
+	font-family: Vollkorn;
+font-size: 32px;
+font-weight: 400;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.wrap1{
+	width: 735px;
+height: 770px;
+right: 0px;
+overflow: hidden;
+/*backdrop-filter: blur(50px);*/
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 200px 20px 20px 20px;
+}
+
+.students{
+	height: 100%;
+	margin-left: -215px;
+}
+
+.title8{
+	font-family: Book Antiqua;
+font-size: 96px;
+font-weight: 400;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+background: radial-gradient(50% 50% at 50% 59.92%, #6382A8 27.9%, #012D63 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+
+.forStart{
+	font-family: Book Antiqua;
+font-size: 64px;
+font-weight: 400;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.feed{
+	/* фид2 1 */
+
+position: absolute;
+width: 610px;
+height: 866px;
+
+}
+
+.window{
+	/* Rectangle 30 */
+display: flex;
+	justify-content: center;
+background: #012D63A6;
+border-radius: 50px 0px 50px 50px;
+opacity: 65%
+padding:10px;
+margin-bottom: 30px;
+}
+
+.windowText{
+	font-family: Book Antiqua;
+font-size: 32px;
+font-weight: 400;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+}
+
+.dot{
+	margin: 37px 15px 15px 15px;
+}
+
+.container3{
+	margin-bottom: 90px;
+}
+
+footer{
+height: 86px;
+background: #01255380;
+display: flex;
+	justify-content: space-between;
+	margin: 0 -8px -8px -8px;
+}
+
+.logo2{
+	margin: 0 50px 0 15px;
+	width: 84px;
+	height: 70px;
+	background: url(assets/logo.png); 
+	
+}
+
+.icon{
+	width: 60px;
+	height: 50px;
+}
+
+.ficon{
+	width: 68px;
+	height: 55px;
+}
+
+.yicon{
+	width: 55px;
+	height: 49px;
+}
+
+.xicon{
+	width: 55px;
+	height: 49px;
+}
+
+.menu1{
+	right: 0px;
+	margin-left: 30px;
+	margin-right: 30px;
+	width: 20%;
+	/*display: flex;
+	
+	color: #312F3E;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 5%;
+}
+
+.thirdDiv{
+	/*height: 475px;*/
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	padding-bottom: 150px; 
+	padding-top: 60px;
+/*	overflow: auto;*/
+
+}
+
+.rectangle2{
+	/* Rectangle 16 */
+	/*display: block;
+	justify-content: center;*/
+
+width: 757px;
+/*height: 475px;*/
+
+background: rgba(17, 16, 16, 0.4);
+border-radius: 46px;
+}
+
+.titleForForm{
+	margin: 25px;
+	font-family: Vollkorn SC;
+font-size: 24px;
+font-weight: 400;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+text-align: center;
+}
+
+form{
+	margin: 25px;
+	width: auto;
+}
+
+input{
+	height: 50px;
+	width: 100%;
+	/*width: 671px;*/
+border-radius: 10px;
+opacity: 40%;
+background-color: #D9D9D9E5;
+border: 0;
+
+}
+
+.textf{
+	height: 200px;
+}
+
+label{
+	margin-top: 30px; 
+	font-family: Vollkorn SC;
+font-size: 24px;
+font-weight: 400;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+.submitButton{
+	height: 57px;
+	width: 233px;
+	margin-top: 15px; 
+	margin-left: 240px; 
+	margin-bottom: 50px;
+font-family: 'Vollkorn SC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+
+color: #FFFFFF;
+
+border: 0;
+background: rgba(217, 217, 217, 0.4);
+border-radius: 30px;
+transform: 0.3s;
+}
+
+.submitButton:hover{
+	/* Rectangle 21 */
+
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(217, 217, 217, 0.9) 0%, rgba(7, 23, 44, 0.9) 100%);
+
+}
+
+.mainTitle{
+	/* Наші консультанти */
+	width: 100%;
+text-align: center;
+font-family: 'Beware';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 106px;
+
+background: radial-gradient(50% 50% at 50% 50%, #D1C6AF 0%, #F1CF7F 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.container2{
+	width: 429px !important;
+	padding: 38px;
+	margin: 35px;
+	/*margin-left: 40px;
+	margin-right: 40px;*/
+	
+	/*height: 300px;*/
+	border-radius: 44px;
+	background: #D0D0D080;
+	opacity: 50px;
+}
+
+.div2{
+	padding: 38px;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-bottom: 120px;
+}
+
+.woman1{
+	width: 353px;
+}
+
+.name{
+	/* Анастасія Скрагленко */
+width:353px;
+font-family: 'Vollkorn SC';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+/* identical to box height */
+text-align: center;
+
+background: radial-gradient(50% 50% at 50% 50%, #9C9595 0%, #666666 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.describe{
+	/* Психотерапевтка, HR консультантка */
+	width: 353px;
+font-family: 'Vollkorn SC';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+}
+
+.bigText{
+	/* Досвідчена спеціалістка в галузі кар'єрного консультування та психотерапії з більш ніж 10-річним досвідом роботи. Має ступінь магістра психології та сертифікацію в галузі управління персоналом. Анастасія допомагає клієнтам знайти баланс між кар'єрними цілями та особистим благополуччям, розробляючи індивідуальні стратегії професійного зростання та подолання стресу. */
+
+width: 353px;
+
+font-family: 'Vollkorn SC';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+
+
+color: #000000;
+}
+
+.reg{
+	/* Rectangle 21 */
+	width: 233px;
+	height: 57px;
+
+border: 0;
+background: rgba(116, 116, 116, 0.9);
+border-radius: 30px;
+
+margin-left: 65px; 
+font-family: Vollkorn SC;
+font-size: 24px;
+font-weight: 400;
+
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+.reg:hover{
+
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(217, 217, 217, 0.9) 0%, rgba(16, 44, 80, 0.9) 100%);
+
+
+}
+
+.price{
+
+font-family: 'Vollkorn SC';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+text-align: center;
+
+
+color: #030303;
+
+
+}
+
+.priceDescribe{
+	width: 330px;
+	height: 505px;
+	font-family: Vollkorn SC;
+	font-size: 20px;
+font-weight: 400;
+line-height: 35px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+
+}
+
+.pony31{
+	width: 353px;
+	margin-left: -10px;
+	margin-bottom: 20px;
+}
